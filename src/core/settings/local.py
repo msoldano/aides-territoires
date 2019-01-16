@@ -33,6 +33,7 @@ ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=['aidesterritoires.local'])
 
 INTERNAL_IPS = env.list('INTERNAL_IPS', default=['127.0.0.1'])
 
+COMPRESS_ENABLED = True
 COMPRESS_OFFLINE = env.bool('COMPRESS_OFFLINE', False)
 
 MAILING_LIST_LIST_ID = env('MAILING_LIST_LIST_ID')
